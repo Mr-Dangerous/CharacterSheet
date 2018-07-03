@@ -108,6 +108,7 @@ class CreateCharacterName : AppCompatActivity() {
             val newCharacter: PlayerCharacter = PlayerCharacter(characterid, charName, charRace, charGender)
         } else {
             Toast.makeText(this, "You are missing something...", Toast.LENGTH_SHORT).show()
+            //
         }
     }
 }
