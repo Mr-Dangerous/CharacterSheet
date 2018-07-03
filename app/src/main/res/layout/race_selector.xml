@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your race"
+        android:textSize="14sp" />
+
+    <RadioButton
+        android:id="@+id/rb_human"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Human"
+        android:textSize="14sp" />
+
+    <RadioButton
+        android:id="@+id/rb_elf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elf"
+        android:textSize="14sp" />
+
+    <RadioButton
+        android:id="@+id/rb_dwarf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dwarf"
+        android:textSize="14sp" />
+
+    <RadioButton
+        android:id="@+id/rb_halfling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halfling"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Races to come"
+        android:textSize="14sp" />
+</LinearLayout>
